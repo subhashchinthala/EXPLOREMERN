@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tags</h1>
+    <form action = "serverfile" method="post">
+        <p><input type="text" required autofocus maxlength="5"/></p>
+        <p><input type="text" value = "subhash" readonly disabled size="100px"/></p>
+        <p><input type ="text" placeholder="Enter the name"/></p>
+        <button type="submit">Submit</button>
+        <input type="image"  src="sub.jpg"/>
+    </form>
+    <form>
+        <p>
+            <input type="email" placeholder="Enter your email" />
+        </p>
+        <p>
+            <input type="password" placeholder="Enter your password" />
+        </p>
+        <button>Login</button>
+    </form>
+
+    <fieldset>
+        <legend>Login Form</legend>
+        <form>
+             <p>
+            <input type="email" placeholder="Enter your email" required/>
+        </p>
+        <p>
+            <input type="password" placeholder="Enter your password" required />
+        </p>
+        <p>
+            <input type="date" />
+        </p>
+        <p>
+            <input type="checkbox" checked>Mern satck
+            <input type="checkbox">Full stack
+            <input type="checkbox">Data Science
+        </p>
+         <p>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">others
+        </p>
+        <p>
+            <select>
+                <option value="1">Mern Stack</option>
+                <option value="2" selected>Full Stack</option>
+                <option value="3">Data Science</option>
+                
+            </select>
+        </p>
+        <p><input type="color"/></p>
+        <p>Age: <input type="number"/>
+        </p>
+        <p>
+            <textarea placeholder="Enter your message" rows="5" cols="30"></textarea>
+            </p>
+            
+        
+        <p>
+            <select>
+                <optgroup label="Courses">
+                <option value="1">Mern Stack</option>
+                <option value="2" >Full Stack</option>
+                <option value="3">Data Science</option>
+                </optgroup>
+                <optgroup label="lan">
+                <option value="1">java</option>
+                <option value="2" >c++</option>
+                <option value="3">python</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input list="country">
+            <datalist id="country">
+                <option value="India"></option>
+                <option value="USA"></option>
+                <option value="UK"></option>
+                <option value="Canada"></option>
+        
+            </datalist>
+        </p>
+        <button>Login</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
