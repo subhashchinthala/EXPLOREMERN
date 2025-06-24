@@ -7,3 +7,6 @@ const f2 = (x) => {
 }
 const n = f1();
 f2(n); // Output: 10
+setInterval(() => {
+    console.log("Hello World");
+}, 1000); // Output: Hello World every second
