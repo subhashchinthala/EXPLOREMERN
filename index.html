@@ -1,30 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 0;
+      margin: 0;
+    }
 
+    header {
+      background-color: #1f4fcb;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      font-style: italic;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      transition: color 0.3s ease;
+    }
+
+    header a {
+      color: #ffd700;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    header a:hover {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px black;
+      transform: scale(1.05);
+    }
+
+    .container {
+      background-color: rgb(23, 33, 44);
+      border-radius: 20px;
+      padding: 20px;
+      margin: 30px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .subcon {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .sub1 {
+      background: rgb(163, 163, 163);
+      border-radius: 45px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      min-width: 280px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .sub1:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .sub1 h2 {
+      color: #1f4fcb;
+      border-bottom: 2px solid #1f4fcb;
+      padding-bottom: 5px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+      background-color: #e3f2fd;
+      padding: 6px 12px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 5px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #007acc;
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333333;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to mern stack</h1>
-    <a href="portfolio/index.html">my portfolio</a>
-    <h2>MY Projects</h2>
-    <ol>
-        <li><a href="p1/index.html">Project 1</a></li>
-        <li><p>Project 2</p></li>
-    </ol>
-    <h2>MY Assignments</h2>
-    <ol>
-        <li><p>Assigmnet 1</p></li>
-        <li><p>Assigmnet 2</p></li>
-    </ol>
-    <h2>My FOLDER</h2>
-    <ol>
-        <li><p>HTML</p></li>
-        <li><p>CSS</p></li>
-        <li><p>JAVASCRIPT</p></li>
-    </ol>
+  <header>
+    <h1>Chinthala Subhash</h1>
+    <h1><a href="portfolio/index.html">My Portfolio</a></h1>
+  </header>
 
+  <div class="container">
+    <div class="subcon">
+      <div class="sub1">
+        <h2>My Projects</h2>
+        <ol>
+          <li><a href="p1/index.html">Project 1</a></li>
+          <li><p>Project 2</p></li>
+        </ol>
+      </div>
+      <div class="sub1">
+        <h2>My Assignments</h2>
+        <ol>
+          <li><p>Assignment 1</p></li>
+          <li><p>Assignment 2</p></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="sub1" style="margin-top: 30px;">
+      <h2>My Folder</h2>
+      <ol>
+        <li><a href="HTML">HTML</a></li><br />
+        <li><a href="CSS">CSS</a></li><br />
+        <li><a href="JAVASCRIPT">JAVASCRIPT</a></li>
+      </ol>
+    </div>
+  </div>
 </body>
 </html>
