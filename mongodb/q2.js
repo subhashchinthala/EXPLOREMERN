@@ -17,3 +17,4 @@
 // db.employees.find({},{name:1})
 
 
+dd.student.aggregate()
