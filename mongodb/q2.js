@@ -8,7 +8,7 @@
 //   { name: "Eve", age: 22, city: "Seattle" }
 // ]);
 
-// db.employees.insertOne({name:"John Smith",email:"Sub@gmail.com",department:"It",salary:100000,location:["FL","OH"],date:Date()})
+db.employees.insertOne({name:"John Smith",email:"Sub@gmail.com",department:"It",salary:100000,location:["FL","OH"],date:Date()})
 // db.employees.find({salary:{$gt:50000}})
 // db.employees.find({salary:{$gt:50000}}).sort({salary:-1}).limit(5)
 // db.employees.find().limit(1);
