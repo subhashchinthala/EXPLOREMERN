@@ -21,6 +21,8 @@ const userSchema = mongoose.Schema(
   },
   { timestamps: true }
 );
+
+
 const userModel = mongoose.model("User", userSchema);
 const userRouter = express.Router();
 const authenticate = (req, res, next) => {

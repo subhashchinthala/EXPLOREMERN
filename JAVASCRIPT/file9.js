@@ -11,6 +11,7 @@ const points = [2,3,4,1,34,45,5];
 //     // console.log(value,index,arr);
 //     return value > 10; // Example condition: filtering values greater than 10
 // })
+
 // console.log(filteredArr); // Output: [34, 45]
 // const findValue = points.find((value,index,arr)=>
 // {
